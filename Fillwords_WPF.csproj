@@ -144,5 +144,8 @@
   <ItemGroup>
     <Resource Include="AppImages\startimg.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppImages\waterBackground.jfif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

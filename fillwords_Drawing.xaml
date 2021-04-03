@@ -17,6 +17,9 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="AppImages/waterBackground.jfif" />
+        </Grid.Background>
         <Border Grid.Row="1" Grid.Column="1" BorderBrush="Brown" CornerRadius="5" BorderThickness="0">
             <StackPanel>
                 <WrapPanel>
